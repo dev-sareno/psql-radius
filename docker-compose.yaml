@@ -1,0 +1,9 @@
+services:
+  psql-radius:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    environment:
+      - POSTGRES_USER=radiususer
+      - POSTGRES_PASSWORD=spalto
+      - POSTGRES_DB=radius

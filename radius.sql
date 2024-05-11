@@ -6,13 +6,6 @@
 */
 
 /*
-* Database
-*/
-CREATE DATABASE radius;
-
-\c radius;
-
-/*
 * Table structure for table 'radacct'
 *
 */
